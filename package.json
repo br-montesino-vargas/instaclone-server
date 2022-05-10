@@ -1,0 +1,35 @@
+{
+  "name": "instagram-server",
+  "version": "1.0.0",
+  "description": "Servidor de la app Instagram",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "test": "npm run test",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "author": "Bryan Montesino",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.16.1",
+    "apollo-server-core": "^2.17.0",
+    "apollo-server-express": "^2.17.0",
+    "aws-sdk": "^2.745.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "fs-capacitor": "^6.2.0",
+    "graphql": "^15.3.0",
+    "graphql-upload": "^11.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.0",
+    "uuid": "^8.3.0"
+  },
+  "resolutions": {
+    "fs-capacitor": "5.0.0"
+  },
+  "engines": {
+    "node": "12.x",
+    "npm": "6.x"
+  }
+}
